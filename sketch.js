@@ -32,9 +32,9 @@ function setup() {
 	
 	rope1=new rope(bob1.body,roofObject.body,-80, 0)
 	rope2=new rope(bob2.body,roofObject.body,-40, 0)
-	rope3 = new rope(bob3.body,roofObject.body,-1,0)
-	rope4 = new rope(bob4.body,roofObject.body,-40,0)
-	rope5 = new rope(bob5.body,roofObject.body,-80,0)
+	rope3 = new rope(bob3.body,roofObject.body,0,0)
+	rope4 = new rope(bob4.body,roofObject.body,40,0)
+	rope5 = new rope(bob5.body,roofObject.body,80,0)
 	
 	
 	
@@ -51,6 +51,9 @@ function draw() {
 
   rope1.display();
   rope2.display();
+  rope3.display();
+  rope4.display();
+  rope5.display();
 
   bob1.display();
   bob2.display();
